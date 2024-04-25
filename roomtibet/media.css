@@ -1,0 +1,96 @@
+@media (max-width: 1140px) {
+
+    .container {
+        margin: 0 auto;
+        max-width: 358px;
+    }
+
+    header {
+        height: 600px;
+        /* background-size: contain; */
+    }
+
+
+    .nav__btn_media {
+        display: block;
+    }
+
+    .nav__button {
+        display: none;
+    }
+
+    .nav__generalBtn {
+        display: none;
+    }
+
+    .info__title {
+        font-size: 28px;
+        font-weight: bolder;
+    }
+
+    .info__searchBlock {
+        margin-bottom: 50px;
+        padding: 0;
+        background-color: transparent;
+        border-radius: 0px;
+        display: block;
+    }
+
+    .info__search {
+        display: none;
+    }
+
+    .aboutUs {
+        margin-top: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .aboutUs {
+        padding-bottom: 50px;
+    }
+
+    .aboutUs__information {
+        width: 100%;
+
+    }
+
+    .aboutUS__media_flex-wrap,
+    .offer__mediaBtn_flex-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .aboutUs__title {
+        font-size: 24px;
+    }
+
+    .aboutUs__description {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .aboutUs__btn {
+        margin-top: 15px;
+    }
+
+    .aboutUs__image_position {
+        position: static;
+        z-index: 1;
+        display: block !important;
+        margin-top: 30px;
+    }
+
+    .aboutUs__image {
+        display: none;
+    }
+
+    .offer__images {
+        display: none;
+    }
+
+    .offer__btn {
+        padding: 15px 40px;
+    
+    }
+}

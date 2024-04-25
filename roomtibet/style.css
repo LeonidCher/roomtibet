@@ -27,6 +27,7 @@
 header {
     background-image: url(./img/header_background.png);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 985px;
 }
 
@@ -261,4 +262,7 @@ header {
 }
 .offer__images{
     width: 100%;
+}
+.nav__btn_media{
+    display: none;
 }
