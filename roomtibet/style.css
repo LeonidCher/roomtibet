@@ -148,6 +148,10 @@ header {
 }
 
 .aboutUs {
+    padding-bottom: 150px;
+}
+
+.aboutUs {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -183,7 +187,7 @@ header {
 
 }
 
-.aboutUs__image{
+.aboutUs__image {
     z-index: 10;
     transition: 0.3s;
 }
@@ -193,7 +197,68 @@ header {
     z-index: 1;
 }
 
-.aboutUs__image_position:hover{
+.aboutUs__image_position:hover {
     margin-top: 100px;
     margin-left: 140px;
+}
+
+.offer {
+    background-color: #F3F5F4;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.offer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer__info{
+
+}
+
+.offer__preTitle {
+    color: #F2BE22;
+    font-size: 20px;
+}
+
+.offer__title {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.offer__description {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.offer__category {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.offer__categoryInfo {
+    margin-left: 15px;
+}
+
+.offer__categoryTitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.offer__categoryDescription {
+    font-size: 14px;
+}
+
+.offer__btn {
+    padding: 15px 20px;
+    margin-top: 30px;
+    background-color: #1A3E3E;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+}
+.offer__images{
+    width: 100%;
 }
